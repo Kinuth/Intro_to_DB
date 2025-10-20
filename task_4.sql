@@ -1,6 +1,4 @@
--- This script prints the full description of the 'Books' table
--- from the database provided as an argument to the mysql command.
--- It avoids using DESCRIBE or EXPLAIN.
+
 USE alx_book_store;
 SELECT
     COLUMN_NAME,
