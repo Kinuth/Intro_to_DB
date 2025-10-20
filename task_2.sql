@@ -21,7 +21,7 @@ CREATE TABLE Books (
 );
 
 -- Create the Customers table to store customer data
-CREATE TABLE Customers (
+CREATE TABLE Customer (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
     customer_name VARCHAR(215) NOT NULL,
     email VARCHAR(215) NOT NULL,
